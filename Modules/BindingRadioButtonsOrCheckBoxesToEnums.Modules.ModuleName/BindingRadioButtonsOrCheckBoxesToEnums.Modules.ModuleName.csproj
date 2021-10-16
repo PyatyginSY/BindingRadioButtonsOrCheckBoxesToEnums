@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>BindingRadioButtonsOrCheckBoxesToEnums.Modules.ModuleName</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.Wpf" Version="8.0.0.1909" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\BindingRadioButtonsOrCheckBoxesToEnums.Core\BindingRadioButtonsOrCheckBoxesToEnums.Core.csproj" />
+    <ProjectReference Include="..\..\Services\BindingRadioButtonsOrCheckBoxesToEnums.Services.Interfaces\BindingRadioButtonsOrCheckBoxesToEnums.Services.Interfaces.csproj" />
+  </ItemGroup>
+</Project>

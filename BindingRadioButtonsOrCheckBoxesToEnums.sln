@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EE957E0C-7087-4641-A201-91C73DC58FEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindingRadioButtonsOrCheckBoxesToEnums.Modules.ModuleName.Tests", "Tests\BindingRadioButtonsOrCheckBoxesToEnums.Modules.ModuleName.Tests\BindingRadioButtonsOrCheckBoxesToEnums.Modules.ModuleName.Tests.csproj", "{EA17308A-2617-49BA-B3A9-3EECD76A8645}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{E67D2ADE-F7A9-4C89-B09A-4C5EA4007AE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindingRadioButtonsOrCheckBoxesToEnums.Modules.ModuleName", "Modules\BindingRadioButtonsOrCheckBoxesToEnums.Modules.ModuleName\BindingRadioButtonsOrCheckBoxesToEnums.Modules.ModuleName.csproj", "{01F3DA8E-93F4-4F9C-8B7B-9C9217C08EBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E0C2373E-02B4-4DD9-BDB7-5E1F14C240A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindingRadioButtonsOrCheckBoxesToEnums.Services", "Services\BindingRadioButtonsOrCheckBoxesToEnums.Services\BindingRadioButtonsOrCheckBoxesToEnums.Services.csproj", "{7A2ED65A-FEA5-40D0-AA24-B29FE8133DAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindingRadioButtonsOrCheckBoxesToEnums.Services.Interfaces", "Services\BindingRadioButtonsOrCheckBoxesToEnums.Services.Interfaces\BindingRadioButtonsOrCheckBoxesToEnums.Services.Interfaces.csproj", "{705653FA-4CAE-4BB7-8F94-EDFF9298A71E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindingRadioButtonsOrCheckBoxesToEnums", "BindingRadioButtonsOrCheckBoxesToEnums\BindingRadioButtonsOrCheckBoxesToEnums.csproj", "{F809784C-C898-4719-997D-E3906F9597B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindingRadioButtonsOrCheckBoxesToEnums.Core", "BindingRadioButtonsOrCheckBoxesToEnums.Core\BindingRadioButtonsOrCheckBoxesToEnums.Core.csproj", "{C366AC6E-940A-46F1-9780-528ECCC2D9C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA17308A-2617-49BA-B3A9-3EECD76A8645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA17308A-2617-49BA-B3A9-3EECD76A8645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA17308A-2617-49BA-B3A9-3EECD76A8645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA17308A-2617-49BA-B3A9-3EECD76A8645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F3DA8E-93F4-4F9C-8B7B-9C9217C08EBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F3DA8E-93F4-4F9C-8B7B-9C9217C08EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F3DA8E-93F4-4F9C-8B7B-9C9217C08EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F3DA8E-93F4-4F9C-8B7B-9C9217C08EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A2ED65A-FEA5-40D0-AA24-B29FE8133DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2ED65A-FEA5-40D0-AA24-B29FE8133DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2ED65A-FEA5-40D0-AA24-B29FE8133DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2ED65A-FEA5-40D0-AA24-B29FE8133DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{705653FA-4CAE-4BB7-8F94-EDFF9298A71E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{705653FA-4CAE-4BB7-8F94-EDFF9298A71E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{705653FA-4CAE-4BB7-8F94-EDFF9298A71E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{705653FA-4CAE-4BB7-8F94-EDFF9298A71E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F809784C-C898-4719-997D-E3906F9597B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F809784C-C898-4719-997D-E3906F9597B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F809784C-C898-4719-997D-E3906F9597B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F809784C-C898-4719-997D-E3906F9597B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C366AC6E-940A-46F1-9780-528ECCC2D9C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C366AC6E-940A-46F1-9780-528ECCC2D9C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C366AC6E-940A-46F1-9780-528ECCC2D9C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C366AC6E-940A-46F1-9780-528ECCC2D9C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA17308A-2617-49BA-B3A9-3EECD76A8645} = {EE957E0C-7087-4641-A201-91C73DC58FEF}
+		{01F3DA8E-93F4-4F9C-8B7B-9C9217C08EBF} = {E67D2ADE-F7A9-4C89-B09A-4C5EA4007AE1}
+		{7A2ED65A-FEA5-40D0-AA24-B29FE8133DAB} = {E0C2373E-02B4-4DD9-BDB7-5E1F14C240A6}
+		{705653FA-4CAE-4BB7-8F94-EDFF9298A71E} = {E0C2373E-02B4-4DD9-BDB7-5E1F14C240A6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E7CA265-C438-4B87-B2DD-02C10F855710}
+	EndGlobalSection
+EndGlobal

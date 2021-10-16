@@ -1,0 +1,32 @@
+﻿<Window x:Class="BindingRadioButtonsOrCheckBoxesToEnums.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        xmlns:core="clr-namespace:BindingRadioButtonsOrCheckBoxesToEnums.Core;assembly=BindingRadioButtonsOrCheckBoxesToEnums.Core"
+        Title="{Binding Title}" Height="350" Width="525" 
+        ui:ThemeManager.RequestedTheme="Default"
+        ui:WindowHelper.UseModernWindowStyle="True">
+
+    <Grid>
+        <Menu
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top">
+            <MenuItem Header="CalculationType">
+                <ui:RadioMenuItem 
+                    Command="{Binding ChangeCommand}"
+                    GroupName="CalculationType"
+                    Header="CalculationTransformer"
+                    IsChecked="{Binding CalculationTypeProperty[CalculationTransformer]}"/>
+                <ui:RadioMenuItem 
+                    Command="{Binding ChangeCommand}"
+                    GroupName="CalculationType"
+                    Header="CalculationOptimization"
+                    IsChecked="{Binding CalculationTypeProperty[CalculationOptimization]}"/>
+            </MenuItem>
+        </Menu>
+        <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}" />
+    </Grid>
+
+</Window>
