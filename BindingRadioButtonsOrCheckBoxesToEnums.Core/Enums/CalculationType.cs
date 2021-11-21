@@ -1,18 +1,22 @@
-﻿namespace SADT.Core.Enums
+﻿// <copyright file="CalculationType.cs" company="Pyatygin S.Y.">
+// Copyright (c) Pyatygin S.Y.. All rights reserved.
+// </copyright>
+
+namespace SADT.Core.Enums
 {
     /// <summary>
-    /// Тип расчета.
+    /// Calculation type.
     /// </summary>
     public enum CalculationType
     {
         /// <summary>
-        /// Расчет трансформатора.
+        /// Calculation transformer.
         /// </summary>
         CalculationTransformer,
 
         /// <summary>
-        /// Расчет оптимизационный.
+        /// Calculation optimization.
         /// </summary>
-        CalculationOptimization
+        CalculationOptimization,
     }
 }

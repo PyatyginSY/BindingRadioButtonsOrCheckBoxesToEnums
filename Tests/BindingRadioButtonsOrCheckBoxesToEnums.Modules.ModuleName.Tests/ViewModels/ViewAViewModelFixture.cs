@@ -1,4 +1,8 @@
-﻿using BindingRadioButtonsOrCheckBoxesToEnums.Modules.ModuleName.ViewModels;
+﻿// <copyright file="ViewAViewModelFixture.cs" company="Pyatygin S.Y.">
+// Copyright (c) Pyatygin S.Y.. All rights reserved.
+// </copyright>
+
+using BindingRadioButtonsOrCheckBoxesToEnums.Modules.ModuleName.ViewModels;
 using BindingRadioButtonsOrCheckBoxesToEnums.Services.Interfaces;
 using Moq;
 using Prism.Regions;
@@ -6,12 +10,18 @@ using Xunit;
 
 namespace BindingRadioButtonsOrCheckBoxesToEnums.Modules.ModuleName.Tests.ViewModels
 {
+    /// <summary>
+    /// ViewAViewModelFixture.
+    /// </summary>
     public class ViewAViewModelFixture
     {
-        Mock<IMessageService> _messageServiceMock;
-        Mock<IRegionManager> _regionManagerMock;
-        const string MessageServiceDefaultMessage = "Some Value";
+        private const string MessageServiceDefaultMessage = "Some Value";
+        private readonly Mock<IMessageService> _messageServiceMock;
+        private readonly Mock<IRegionManager> _regionManagerMock;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ViewAViewModelFixture"/> class.
+        /// </summary>
         public ViewAViewModelFixture()
         {
             var messageService = new Mock<IMessageService>();
@@ -21,6 +31,9 @@ namespace BindingRadioButtonsOrCheckBoxesToEnums.Modules.ModuleName.Tests.ViewMo
             _regionManagerMock = new Mock<IRegionManager>();
         }
 
+        /// <summary>
+        /// MessagePropertyValueUpdated.
+        /// </summary>
         [Fact]
         public void MessagePropertyValueUpdated()
         {
@@ -31,6 +44,9 @@ namespace BindingRadioButtonsOrCheckBoxesToEnums.Modules.ModuleName.Tests.ViewMo
             Assert.Equal(MessageServiceDefaultMessage, vm.Message);
         }
 
+        /// <summary>
+        /// MessageINotifyPropertyChangedCalled.
+        /// </summary>
         [Fact]
         public void MessageINotifyPropertyChangedCalled()
         {
